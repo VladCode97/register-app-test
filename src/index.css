@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+form {
+  padding: 1rem;
+}
+
+form,
+input {
+  border: 0.063rem solid #272829;
+}
+
+form,
+input,
+button {
+  border-radius: 0.25rem;
+}
+
+h1,
+.input-container {
+  color: #272829;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.input-error {
+  color: #ff6d60;
+  font-size: 0.875rem;
+  text-align: right;
+}
+
+input,
+button {
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #272829;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
